@@ -7,16 +7,21 @@ body {
   font-family: "Lucida Console";
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(94, 82, 82, 0.521);
+  background-color: #e9e9e9;
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.849);
+  background-color: #000000d9;
   width: 100%;
+  
   color: white;
   text-align: center;
+
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  
 }
+
+
 .header {
   display: flex;
   flex-direction: column;
@@ -28,8 +33,7 @@ footer {
   width: 100%;
   margin: 0;
   padding: 20px;
-  height: 300px;
-  display: flex;
+  height: 276px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 .section {
@@ -37,10 +41,10 @@ footer {
   margin: 0;
   width: 30%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.849);
+  background-color: #000000d9;
   color: #b0bec5;
   border-radius: 1px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0, 0 3px 6px rgba(0, 0, 0, 0.23);
   
 }
 
@@ -76,7 +80,7 @@ footer {
   font-size: 20px;
 }
 .atributos {
-  margin-bottom: 95px;
+  margin-bottom: 60px;
 
 }
 
@@ -126,27 +130,27 @@ footer {
 .contato {
   margin-bottom: 20px;
   margin-left: 60px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .contato > h3 {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   
 }
 .skills {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   margin-left: 60px;
 }
 .skills > h3 {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .plataformas {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   margin-left: 60px;
 }
 .plataformas > h3 {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .link-cor {
   color: #b0bec5;
