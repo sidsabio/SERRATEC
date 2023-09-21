@@ -5,9 +5,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Lucida Console";
-  
- 
-  
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(94, 82, 82, 0.521);
 }
 
 footer {
@@ -15,7 +15,7 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 .header {
   display: flex;
@@ -35,17 +35,22 @@ footer {
 .section {
   padding: 0;
   margin: 0;
-  width: 20%;
+  width: 30%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.849);
   color: #b0bec5;
   border-radius: 1px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  
 }
 
 .secondSection {
   background-color: #b0bec5;
   width: 80%;
   height: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  
+  
 }
 
 .secondSection > h3 {
@@ -150,7 +155,7 @@ footer {
 #fotoPerfil {
   width: 250px;
   height: 250px;
-  border-radius: 5px;
+  border-radius: 200px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
