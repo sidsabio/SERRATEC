@@ -5,18 +5,9 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Lucida Console";
-}
-
-header {
-  background-color: rgb(43, 130, 136);
-  padding: 20px;
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  align-content: stretch;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  
+ 
+  
 }
 
 footer {
@@ -26,15 +17,27 @@ footer {
   text-align: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(43, 130, 136);
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  height: 300px;
+  display: flex;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
 .section {
+  padding: 0;
+  margin: 0;
   width: 20%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.849);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  flex-wrap: nowrap;
   color: #b0bec5;
   border-radius: 1px;
 }
@@ -42,12 +45,14 @@ footer {
 .secondSection {
   background-color: #b0bec5;
   width: 80%;
+  height: 100%;
 }
 
 .secondSection > h3 {
   margin-left: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: rgb(74, 74, 74);
 }
 
 .sections {
@@ -60,20 +65,21 @@ footer {
   height: 100%;
 }
 
-
-
-.atributos {
-  color: #ffffff;
+.atributo {
+  color: rgb(74, 74, 74);
   margin-left: 50px;
   font-size: 20px;
-  
+}
+.atributos {
+  margin-bottom: 95px;
+
 }
 
 .name {
-  color: #ffffff;
+  color: rgb(74, 74, 74);
   margin-left: 50px;
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 40px;
 }
 
 .experiencias {
@@ -114,26 +120,32 @@ footer {
 
 .contato {
   margin-bottom: 20px;
+  margin-left: 60px;
+  margin-top: 30px;
 }
 
 .contato > h3 {
   margin-bottom: 20px;
+  
 }
-.skills{
+.skills {
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 .skills > h3 {
   margin-bottom: 20px;
 }
 
-.plataformas{
+.plataformas {
   margin-bottom: 20px;
+  margin-left: 60px;
 }
 .plataformas > h3 {
   margin-bottom: 20px;
 }
-
-
+.link-cor {
+  color: #b0bec5;
+}
 
 #fotoPerfil {
   width: 250px;
@@ -142,18 +154,12 @@ footer {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.link-cor {
-  color: #b0bec5;
-}
-
-#plataformas{
-  
+#plataformas {
   margin-bottom: 20px;
 }
 
-#epic{
+#epic {
   width: 30px;
   height: 30px;
   margin-left: 0px;
-
 }
