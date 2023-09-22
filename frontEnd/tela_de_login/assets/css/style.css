@@ -208,11 +208,11 @@ body {
 #assinar:hover {
   text-decoration: underline;
 }
-#caixa {
+#caixa{
   margin: 0;
   width: 16px;
   height: 16px;
-  color: #8c8c8c;
+  
 }
 
 #assinar {
