@@ -13,12 +13,15 @@
 
 <body>
     <div id="principal">
-        <div class="header-logo">
+        <div id="header-logo" class="header-logo">
             <img src="./src/img/netflix_logo.png" alt="">
+            <input type="checkbox" id="darkmode-toggle" onclick="mudar()" />
+            <label for="darkmode-toggle"></label>
         </div>
         <div class="background-login-geral">
-            <div class="tela-login">
-                <div class="form">
+            <div id="tela-de-login" class="tela-login">
+                <div id="formulario" class="form">
+                    
                     <h1>Entrar</h1>
                     <input class="input" type="text" placeholder="Email ou número de telefone">
                     <input class="input" type="password" placeholder="Senha">
@@ -78,7 +81,9 @@
         </div>
 
     </div>
+<script src="./javascript/script.js">
 
+</script>
 </body>
 
 </html>
